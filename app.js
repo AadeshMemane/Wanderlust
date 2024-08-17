@@ -97,6 +97,11 @@ app.listen(8080, () => {
   console.log('server is listening to port 8080')
 })
 
+//Route Route
+app.get('/', (req, res) => {
+  res.redirect('/listings')
+})
+
 // ERROR
 app.all('*', (req, res, next) => {
   next(new ExpressError(404, 'Page Not Found!'))
