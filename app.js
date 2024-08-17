@@ -49,11 +49,6 @@ app.use(express.static(path.join(__dirname, '/public')))
 app.use(methodOverride('_method'))
 app.engine('ejs', engine)
 
-//Root Route
-app.get('/', (req, res) => {
-  res.send('Hi, I am root')
-})
-
 //MONGO-Based Store
 const store = MongoStore.create({
   mongoUrl: dbUrl,
