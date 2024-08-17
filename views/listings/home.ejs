@@ -1,0 +1,265 @@
+<% layout('/layouts/boilerplate.ejs') -%>
+<body>
+  <!-- Carousel -->
+  <div id="travelCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg/1200px-Mumbai_Aug_2018_%2843397784544%29.jpg"
+          class="d-block w-100"
+          alt="Mumbai"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg"
+          class="d-block w-100"
+          alt="Taj Mahal"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/fe/fe/b3/polo-orchid-resort-cherrapunji.jpg?w=1200&h=-1&s=1"
+          class="d-block w-100"
+          alt="Cherrapunji"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cherrapunji</h5>
+          <p>The land of rain and clouds.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://media.cntraveler.com/photos/643d5d0a5722b1af03793a06/16:9/w_2560%2Cc_limit/Dal%2520Lake_GettyImages-1323846766.jpg"
+          alt="Resort Stay"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://t4.ftcdn.net/jpg/06/24/97/25/360_F_624972566_xKN0h03F11tHNfqlo3k7nTC5IHrBN4N8.jpg"
+          class="d-block w-100"
+          alt="Beach Resort"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kerala Resort</h5>
+          <p>Land of God.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://media.meer.com/attachments/8507a4d67a2d6c38ec30e81cca64997244ba2a5b/store/fill/1090/613/82d5cbea2917df623eb8fb15f4cbf034becfeb773c4ff1212cbe1274b737/The-stunning-beach-of-Goa.jpg"
+          alt="Beach Resort"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Goa Beach</h5>
+          <p>Place to celebrate..</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2023/02/Himachal-Pradesh-in-March-1.webp?fit=1920%2C1080&ssl=1"
+          alt="Beach Resort"
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Himachal Pradesh</h5>
+          <p>Place to celebrate..</p>
+        </div>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#travelCarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#travelCarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Hero Section -->
+  <!-- <div class="container-fluid p-5 bg-image">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="display-4">Discover the World with Wanderlust</h1>
+        <p class="lead">
+          "Travel is the only thing you buy that makes you richer." - Anonymous
+        </p>
+        <a href="#featured-destinations" class="btn btn-primary btn-lg"
+          >Explore Destinations</a
+        >
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Featured Destinations -->
+  <div id="featured-destinations" class="container my-5">
+    <h2 class="text-center mb-4">Featured Travel Destinations</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/fe/fe/b3/polo-orchid-resort-cherrapunji.jpg?w=1200&h=-1&s=1"
+            class="card-img-top"
+            alt="Goa"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Goa, India</h5>
+            <p class="card-text">
+              Sun-kissed beaches, vibrant nightlife, and rich cultural heritage
+              await you in Goa.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://cdn.sanity.io/images/ocl5w36p/production/352b353f16a1d2ac9e0238815b2004a975181061-1280x1761.jpg?w=480&auto=format&dpr=2"
+            class="card-img-top"
+            alt="Taj Mahal"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Aagra, India</h5>
+            <p class="card-text">
+              itness the grandeur of the world's most famous monument.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Houseboats_at_Kerala_Backwaters.jpg/640px-Houseboats_at_Kerala_Backwaters.jpg"
+            class="card-img-top"
+            alt="Kerala"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Kerala, India</h5>
+            <p class="card-text">
+              Embrace the serene backwaters, lush greenery, and exotic wildlife
+              in Kerala.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Card 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://i.pinimg.com/originals/e2/41/4b/e2414b2ed489f033305a64a0ef9123c9.jpg"
+            class="card-img-top"
+            alt="New York"
+          />
+          <div class="card-body">
+            <h5 class="card-title">New York, USA</h5>
+            <p class="card-text">
+              The city that never sleeps offers endless possibilities for
+              adventure and exploration.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mumbai_Aug_2018_%2843397784544%29.jpg/1200px-Mumbai_Aug_2018_%2843397784544%29.jpg"
+            alt="Sydney"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Mumbai, India</h5>
+            <p class="card-text">
+              Discover the bustling life of India's financial capital.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1577545161018-1F9Z9ZZQG9JO2O4WCWQX/keith-zhu-qaNcz43MeY8-unsplash+%281%29.jpg?format=1500w"
+            class="card-img-top"
+            alt="Sydney"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sydney, Australia</h5>
+            <p class="card-text">
+              From the iconic Sydney Opera House to beautiful beaches, Sydney
+              has it all.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2023/02/Himachal-Pradesh-in-March-1.webp?fit=1920%2C1080&ssl=1"
+            class="card-img-top"
+            alt="Himachal"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Himachal, India</h5>
+            <p class="card-text">Surrounded By mountains and its Beauty!!!</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://cdn.pixabay.com/photo/2023/07/22/10/42/tokyo-8143158_1280.jpg"
+            class="card-img-top"
+            alt="Tokyo"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tokyo, Japan</h5>
+            <p class="card-text">
+              Discover the blend of traditional culture and cutting-edge
+              technology in Tokyo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 9 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?cs=srgb&dl=pexels-thorsten-technoman-109353-338515.jpg&fm=jpg"
+            class="card-img-top"
+            alt="Paris"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Paris, France</h5>
+            <p class="card-text">
+              Experience the romance of the City of Light with its art, history,
+              and cuisine.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="/listings" class="btn btn-primary btn-md exploreBtn"
+        >Explore Destinations</a
+      >
+    </div>
+  </div>
+</body>

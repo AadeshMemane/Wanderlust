@@ -1,0 +1,339 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Flash Message */
+.flash {
+  width: 90% !important;
+  margin-left: 1.5rem !important;
+  font-size: 0.75rem !important;
+}
+
+/* navbar */
+.navbar {
+  height: 5rem !important;
+  background-color: white !important;
+}
+
+.fa-regular {
+  color: #fe424d !important;
+  font-size: 2rem !important;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  color: #222222 !important;
+}
+
+/* NavBar-Search */
+.search-btn {
+  background-color: #fe424d !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  border-radius: 1rem !important;
+  padding: 0 1rem 0 1rem !important;
+}
+.search-btn:hover {
+  background-color: #fe424d !important;
+  color: #fff !important;
+}
+.search-btn i {
+  display: inline !important;
+  margin-right: 0.5rem !important;
+}
+.search-bar {
+  border-radius: 1rem !important;
+  padding: 0 2rem 0 2rem !important;
+}
+
+/* Navbar Logout */
+.dropdown {
+  margin-right: 1rem;
+}
+.logOut {
+  font-size: 1.2rem !important;
+  margin-right: 0.25rem !important;
+}
+
+/* footer */
+.f-info {
+  height: 8rem;
+  background-color: #ebebeb !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.f-info-social,
+.f-info-links,
+.f-info-brand {
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.f-info-social i {
+  font-size: 1.5rem;
+  margin-right: 1.2rem;
+}
+.f-info-social a {
+  text-decoration: none !important;
+  color: #222222 !important;
+  opacity: 0.8 !important;
+}
+.f-info-social a:hover {
+  opacity: 1 !important;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+  margin-right: 1rem;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info-social a {
+  text-decoration: none !important;
+}
+
+/* Home */
+.carousel-item {
+  height: 70vh;
+}
+
+/* CARDS */
+
+.listing-card {
+  border: none !important;
+  margin: 1rem !important;
+}
+
+.card-img-top {
+  height: 18rem !important;
+  width: 100% !important;
+  border-radius: 1rem !important;
+  object-fit: cover !important;
+}
+
+.row a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.card-body {
+  padding: 0rem !important;
+  font-weight: 400 !important;
+}
+
+/* CARD_Overlay */
+.card-img-overlay {
+  opacity: 0 !important;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.5 !important;
+  background-color: #ebebeb !important;
+}
+
+.txt {
+  color: #000 !important;
+  font-size: large !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NEW Listing and Edit Page*/
+
+.edit-btn {
+  background-color: #fe424d !important;
+}
+
+/* SignIn SignUp Page */
+.signInUp {
+  width: 90% !important;
+  padding: auto !important;
+  margin-left: 1.5rem !important;
+}
+
+/* SHOW PAGE */
+
+.show-img {
+  height: 300vh;
+}
+.btns .edit-btn {
+  background-color: #fe424d !important;
+  color: #ebebeb;
+  width: 4rem;
+}
+.btns {
+  display: flex;
+}
+
+.show-card {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/* Edit Page */
+.edit-img {
+  height: 200px !important;
+  width: 200px !important;
+}
+/* REVIEW CARD */
+
+.review-card {
+  border: 0.1rem solid black !important;
+}
+
+/* SignIn Page */
+.newLink {
+  color: #216ce6 !important;
+}
+
+/* MAP Styling */
+#map {
+  height: 300px;
+  width: 110vh;
+}
+
+/* Filters */
+#filters a {
+  color: #222222;
+  text-decoration: none;
+}
+#filters {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+}
+.filters {
+  text-align: center !important;
+  border-radius: 0.5rem !important;
+  margin-right: 1rem !important;
+  margin-top: 1rem !important;
+  margin-left: 1rem !important;
+  opacity: 0.7 !important;
+}
+.filters:hover {
+  opacity: 1 !important ;
+  cursor: pointer !important;
+}
+
+.tax-info {
+  display: none;
+}
+
+/* Filter Icons */
+.artic {
+  color: #5ea3b3 !important;
+}
+
+/* Dynamic Styling */
+@media screen and (max-width: 766px) {
+  /* Home */
+  .carousel {
+    height: 18rem !important ;
+  }
+  .carousel-item {
+    height: 18rem !important;
+  }
+  .exploreBtn {
+    color: white !important;
+  }
+  /* NavBar */
+  .collapse {
+    transition: 0.5s ease !important;
+    height: 12rem !important;
+    background-color: white !important;
+  }
+  .nav-search {
+    display: none !important;
+  }
+  /* Filters */
+  #filters {
+    display: none !important;
+  }
+  .filter-btn {
+    display: none !important;
+  }
+  /* INDEX-PAGE */
+  .card {
+    position: sticky !important;
+    border: none !important;
+    margin: 1rem !important;
+  }
+  /* Show-Page */
+  .show-card {
+    width: 90% !important;
+    margin-left: 1.5rem !important;
+  }
+  .show-img {
+    margin-left: 0.75rem !important;
+    height: 300px !important;
+    width: 90% !important;
+  }
+  .list-group {
+    font-size: 0.75rem !important;
+  }
+  .btns a {
+    font-size: 1rem !important;
+  }
+
+  .reviews {
+    width: 90% !important;
+  }
+  .review-card {
+    width: 90% !important;
+  }
+  .map {
+    height: 200px !important;
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+  }
+  #map {
+    margin-left: 1rem !important;
+    height: 200px !important;
+    width: 90% !important;
+  }
+
+  /* Add New Property Page */
+  .createNew {
+    margin-left: 1rem !important;
+    width: 90% !important;
+    padding: auto !important;
+  }
+
+  /* Footer */
+  .f-info {
+    height: 10rem;
+    background-color: #ebebeb !important;
+    padding: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .f-info-social a {
+    text-decoration: none !important;
+    color: #222222 !important;
+    opacity: 1 !important;
+  }
+
+  /* Privacy Terms And conditions */
+  .others {
+    width: 90% !important;
+    margin-left: 1.5rem !important;
+  }
+}

@@ -1,0 +1,106 @@
+<% layout("/layouts/boilerplate.ejs") -%>
+<div class="row">
+  <div class="col-6 offset-3 signInUp">
+    <h2>SignUp On WanderLust</h2>
+    <form method="post" action="/signup" class="needs-validation" novalidate>
+      <div class="row">
+        <div class="col-6 mb-3">
+          <label for="firstName" class="form-lable"> First Name </label>
+          <input
+            name="firstName"
+            class="form-control"
+            type="text"
+            id="firstName"
+            required
+          />
+          <span id="passwordHelpInline" class="form-text invalid-feedback">
+            Enter Your First Name!
+          </span>
+        </div>
+        <div class="col-6 mb-3">
+          <label for="lastName" class="form-lable"> Last Name </label>
+          <input
+            name="lastName"
+            class="form-control"
+            type="text"
+            id="lastName"
+            required
+          />
+          <span id="passwordHelpInline" class="form-text invalid-feedback">
+            Enter Your Last Name!
+          </span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-lable"> Email </label>
+        <input
+          name="email"
+          class="form-control"
+          type="email"
+          id="email"
+          required
+        />
+        <span id="passwordHelpInline" class="form-text invalid-feedback">
+          Please Enter Your Email!
+        </span>
+      </div>
+      <div class="mb-3">
+        <label for="username" class="form-lable"> Username </label>
+        <input
+          name="username"
+          class="form-control"
+          type="text"
+          id="username"
+          required
+        />
+        <span id="passwordHelpInline" class="form-text invalid-feedback">
+          Please Enter Your Username!
+        </span>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-lable"> Password </label>
+        <input
+          name="password"
+          class="form-control"
+          type="password"
+          id="password"
+          minlength="8"
+          aria-describedby="passwordHelpInline"
+          required
+        />
+        <span id="passwordHelpInline" class="form-text invalid-feedback">
+          Must be 8-20 characters long.
+        </span>
+      </div>
+
+      <div class="mb-3">
+        <label for="confirmPass" class="form-lable">Confirm Password </label>
+        <input
+          name="confirmPass"
+          class="form-control"
+          type="password"
+          id="confirmPass"
+          minlength="8"
+          aria-describedby="passwordHelpInline"
+          required
+        />
+        <span id="passwordHelpInline" class="form-text invalid-feedback">
+          Must be 8-20 characters long.
+        </span>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          value=""
+          id="flexCheckDefault"
+          required
+        />
+        <label class="form-check-label mb-2" for="flexCheckDefault">
+          I agree to the Terms and Conditions.
+        </label>
+      </div>
+      <button class="btn btn-success mb-2">Sign Up</button>
+    </form>
+  </div>
+</div>
