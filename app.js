@@ -25,6 +25,7 @@ const userRouter = require('./routes/user.js')
 //Database Connection
 //MONGODB
 const dbUrl = process.env.MONGO_ATLAS_URL
+// const dbUrl = MONGO_URL
 async function main() {
   await mongoose.connect(dbUrl)
 }

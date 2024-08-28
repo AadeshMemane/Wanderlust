@@ -161,13 +161,6 @@ body {
   background-color: #fe424d !important;
 }
 
-/* SignIn SignUp Page */
-.signInUp {
-  width: 90% !important;
-  padding: auto !important;
-  margin-left: 1.5rem !important;
-}
-
 /* SHOW PAGE */
 
 .show-img {
@@ -242,6 +235,12 @@ body {
 
 /* Dynamic Styling */
 @media screen and (max-width: 766px) {
+  /* SignIn SignUp Page */
+  .signInUp {
+    width: 90% !important;
+    padding: auto !important;
+    margin-left: 1.5rem !important;
+  }
   /* Home */
   .carousel {
     height: 18rem !important ;

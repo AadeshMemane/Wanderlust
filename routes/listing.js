@@ -29,7 +29,7 @@ router
 router.route('/home').get(wrapAsync(listingController.home))
 
 //Create Route
-router.get('/new', isLoggedIn, wrapAsync(listingController.renderNewForm))
+router.route('/new').get(isLoggedIn, wrapAsync(listingController.renderNewForm))
 
 //Show Route //update Route //DELETE ROUTE
 router
