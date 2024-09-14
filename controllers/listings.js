@@ -120,7 +120,7 @@ module.exports.searchRoute = async (req, res) => {
       { category: query },
     ],
   })
-  console.log(allListings)
+  // console.log(allListings)
   if (allListings.length == 0) {
     req.flash(
       'error',
